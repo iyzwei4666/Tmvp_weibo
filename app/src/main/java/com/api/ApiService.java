@@ -50,7 +50,7 @@ public interface ApiService {
     Flowable<TimelineRet> statuses_user_timeline(@Query("access_token") String access_token );
 
     @GET("statuses/repost_timeline.json")
-    Flowable<TimelineRet> statuses_repost_timeline(@Query("access_token") String username, @Query("id") String id);
+    Flowable<TimelineRet> statuses_repost_timeline(@Query("access_token") String access_token, @Query("id") String id);
 
     @GET("statuses/mentions.json")
     Flowable<TimelineRet> statuses_mentions(@Query("access_token") String access_token  );

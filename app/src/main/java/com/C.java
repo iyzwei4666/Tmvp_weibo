@@ -10,8 +10,10 @@ public class C {
     //==================API============//
     public static final String X_LC_Id = "i7j2k7bm26g7csk7uuegxlvfyw79gkk4p200geei8jmaevmx";
     public static final String X_LC_Key = "n6elpebcs84yjeaj5ht7x0eii9z83iea8bec9szerejj7zy3";
-    public static final String BASE_URL = "https://leancloud.cn:443/1.1/";
+//    public static final String BASE_URL = "https://leancloud.cn:443/1.1/";
 //    public static final String BASE_URL = "https://api.weibo.com/2/";
+    public static final String BASE_URL = "https://api.weibo.com/2/";
+    public static final String ACCESS_TOKEN = "2.00N6FpmCuLLUYC3cee7f3fb54zOT_B";
 
     public static final String ADMIN_ID = "53d9076ce4b0ef69707fc78c";
     public static final String ADMIN_FACE = "https://avatars0.githubusercontent.com/u/7598555?v=3&s=460";
