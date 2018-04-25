@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.C;
 import com.base.BaseActivity;
 import com.model.TimelineRet;
 import com.ui.main.R;
@@ -17,6 +18,12 @@ public class WelcomeActivity extends BaseActivity<WelcomePresenter, ActivityWelc
     @Override
     public void onClick(View v) {
 
+    }
+    public void getHomeweibo(View v) {
+        mPresenter.statuses_home_timeline(C.ACCESS_TOKEN);
+    }
+    public void getUserweibo(View v) {
+        mPresenter.statuses_user_timeline(C.ACCESS_TOKEN);
     }
 
     @Override
@@ -36,6 +43,6 @@ public class WelcomeActivity extends BaseActivity<WelcomePresenter, ActivityWelc
 
     @Override
     public void initView() {
-        mPresenter.statuses_home_timeline(null);
+
     }
 }
