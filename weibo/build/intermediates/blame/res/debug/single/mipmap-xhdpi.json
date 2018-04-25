@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\WorkExp\\Tmvp_weibo\\weibo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\welcome_android_logo.png",
+        "source": "C:\\WorkExp\\Tmvp_weibo\\weibo\\src\\main\\res\\mipmap-xhdpi\\welcome_android_logo.png"
+    },
+    {
+        "merged": "C:\\WorkExp\\Tmvp_weibo\\weibo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\WorkExp\\Tmvp_weibo\\weibo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\WorkExp\\Tmvp_weibo\\weibo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\myicon.png",
+        "source": "C:\\WorkExp\\Tmvp_weibo\\weibo\\src\\main\\res\\mipmap-xhdpi\\myicon.png"
+    },
+    {
+        "merged": "C:\\WorkExp\\Tmvp_weibo\\weibo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\welcome_android_slogan.png",
+        "source": "C:\\WorkExp\\Tmvp_weibo\\weibo\\src\\main\\res\\mipmap-xhdpi\\welcome_android_slogan.png"
+    },
+    {
+        "merged": "C:\\WorkExp\\Tmvp_weibo\\weibo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\WorkExp\\Tmvp_weibo\\weibo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

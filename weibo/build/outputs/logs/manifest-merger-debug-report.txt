@@ -1,0 +1,116 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+application
+ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.github.todou:appbarspring:1.0.5] C:\Users\WYZ\.android\build-cache\6dd685efb4ca5f50b7968c34fdfa97297d55a06a\output\AndroidManifest.xml:11:5-14:38
+MERGED from [com.android.support:design:25.3.1] C:\Users\WYZ\.android\build-cache\90751b2a1c2d2598acc3a1b14dc04edfdc286b2c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\WYZ\.android\build-cache\02d679ee7dd66fe7a51ef3d925e57bd446d88083\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\WYZ\.android\build-cache\da40edcb43226b690c31c4619ca3009df58d44ac\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\WYZ\.android\build-cache\8bd6054cd62a1f91be724c3e67a9a945752b4d3d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\WYZ\.android\build-cache\70ed601076f1950b82a84bae488ca65b39386252\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\WYZ\.android\build-cache\d6df62df196f1f605cb364b176bb365687101d53\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:percent:25.3.1] C:\Users\WYZ\.android\build-cache\c5fda97a77d650cc64119fa74071c33f7c304e2d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\WYZ\.android\build-cache\5f538c03b309ab656f662d2ab6a2ae302418744b\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\WYZ\.android\build-cache\ebc615c0e29d065115a751664ea7811afe04e7fa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\WYZ\.android\build-cache\ca5dfc86e481e75ed98e94ae7062655e288658b2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\WYZ\.android\build-cache\91eb45dce0475468582a313072b2c03d59a2705c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\WYZ\.android\build-cache\77c33ec5da88eef5c87586377b4efaf2f0073efb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\WYZ\.android\build-cache\257d1f3a11a44c9018d635bb8ef40c261cc2b2ee\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\WYZ\.android\build-cache\2cbf6adb9eeb3fe5577260632728c9f7b8c9133e\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:11:9-40
+activity#com.ui.welcome.WelcomeActivity
+ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:12:19-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:16:27-74
+activity#com.ui.home.HomeActivity
+ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:19:9-22:59
+	android:label
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:21:13-56
+	android:theme
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml:20:13-52
+uses-sdk
+INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [io.realm:realm-android-library:3.4.0] C:\Users\WYZ\.android\build-cache\0cdcd30f0e203c5a4bfd341a65a330ed38496e25\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\WYZ\.android\build-cache\3761cd02db24c579449ae764ff7c790d8645a5a7\output\AndroidManifest.xml:7:5-43
+MERGED from [com.github.todou:appbarspring:1.0.5] C:\Users\WYZ\.android\build-cache\6dd685efb4ca5f50b7968c34fdfa97297d55a06a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\WYZ\.android\build-cache\13c5e0dae88ec007f289d13e869f8f9fa08c7946\output\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\WYZ\.android\build-cache\90751b2a1c2d2598acc3a1b14dc04edfdc286b2c\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\WYZ\.android\build-cache\02d679ee7dd66fe7a51ef3d925e57bd446d88083\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\WYZ\.android\build-cache\da40edcb43226b690c31c4619ca3009df58d44ac\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\WYZ\.android\build-cache\51bd9932087233544534dfd0d257f480f108f35d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\WYZ\.android\build-cache\8bd6054cd62a1f91be724c3e67a9a945752b4d3d\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\WYZ\.android\build-cache\70ed601076f1950b82a84bae488ca65b39386252\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\WYZ\.android\build-cache\d6df62df196f1f605cb364b176bb365687101d53\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:percent:25.3.1] C:\Users\WYZ\.android\build-cache\c5fda97a77d650cc64119fa74071c33f7c304e2d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\WYZ\.android\build-cache\5f538c03b309ab656f662d2ab6a2ae302418744b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\WYZ\.android\build-cache\0613abe44338c85598ae8efab1d6ba04751eb9aa\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\WYZ\.android\build-cache\35a3bca26584417b4832a56a1593c156cfdf9b57\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\WYZ\.android\build-cache\ebc615c0e29d065115a751664ea7811afe04e7fa\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\WYZ\.android\build-cache\ca5dfc86e481e75ed98e94ae7062655e288658b2\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\WYZ\.android\build-cache\91eb45dce0475468582a313072b2c03d59a2705c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\WYZ\.android\build-cache\77c33ec5da88eef5c87586377b4efaf2f0073efb\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\WYZ\.android\build-cache\257d1f3a11a44c9018d635bb8ef40c261cc2b2ee\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\WYZ\.android\build-cache\2cbf6adb9eeb3fe5577260632728c9f7b8c9133e\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\WYZ\.android\build-cache\90751b2a1c2d2598acc3a1b14dc04edfdc286b2c\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkExp\Tmvp_weibo\weibo\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\WYZ\.android\build-cache\90751b2a1c2d2598acc3a1b14dc04edfdc286b2c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\WYZ\.android\build-cache\02d679ee7dd66fe7a51ef3d925e57bd446d88083\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\WYZ\.android\build-cache\da40edcb43226b690c31c4619ca3009df58d44ac\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\WYZ\.android\build-cache\51bd9932087233544534dfd0d257f480f108f35d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\WYZ\.android\build-cache\8bd6054cd62a1f91be724c3e67a9a945752b4d3d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\WYZ\.android\build-cache\70ed601076f1950b82a84bae488ca65b39386252\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\WYZ\.android\build-cache\d6df62df196f1f605cb364b176bb365687101d53\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:percent:25.3.1] C:\Users\WYZ\.android\build-cache\c5fda97a77d650cc64119fa74071c33f7c304e2d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\WYZ\.android\build-cache\ebc615c0e29d065115a751664ea7811afe04e7fa\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\WYZ\.android\build-cache\ca5dfc86e481e75ed98e94ae7062655e288658b2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\WYZ\.android\build-cache\91eb45dce0475468582a313072b2c03d59a2705c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\WYZ\.android\build-cache\77c33ec5da88eef5c87586377b4efaf2f0073efb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\WYZ\.android\build-cache\257d1f3a11a44c9018d635bb8ef40c261cc2b2ee\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\WYZ\.android\build-cache\2cbf6adb9eeb3fe5577260632728c9f7b8c9133e\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\WYZ\.android\build-cache\90751b2a1c2d2598acc3a1b14dc04edfdc286b2c\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\WYZ\.android\build-cache\90751b2a1c2d2598acc3a1b14dc04edfdc286b2c\output\AndroidManifest.xml:26:9-47
