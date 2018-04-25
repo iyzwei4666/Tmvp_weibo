@@ -2,7 +2,6 @@
   * Copyright 2018 aTool.org 
   */
 package com.model;
-import com.model.statues.*;
 
 import java.util.List;
 
@@ -14,7 +13,7 @@ import java.util.List;
  */
 public class TimelineRet {
 
-    private List<com.model.statues.Statuses> statuses;
+    private List<com.model.json.statues.Statuses> statuses;
     private List<String> advertises;
     private List<String> ad;
     private boolean hasvisible;
@@ -34,11 +33,11 @@ public class TimelineRet {
 
     private long has_unread;
 
-    public List<com.model.statues.Statuses> getStatuses() {
+    public List<com.model.json.statues.Statuses> getStatuses() {
         return statuses;
     }
 
-    public void setStatuses(List<com.model.statues.Statuses> statuses) {
+    public void setStatuses(List<com.model.json.statues.Statuses> statuses) {
         this.statuses = statuses;
     }
 

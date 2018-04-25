@@ -1,7 +1,7 @@
 /**
   * Copyright 2018 aTool.org 
   */
-package com.model.statues;
+package com.model.json.statues;
 
 /**
  * Auto-generated: 2018-04-25 21:58:19

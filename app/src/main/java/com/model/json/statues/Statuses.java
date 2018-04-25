@@ -1,7 +1,7 @@
 /**
   * Copyright 2018 aTool.org 
   */
-package com.model.statues;
+package com.model.json.statues;
 import java.util.List;
 
 /**
