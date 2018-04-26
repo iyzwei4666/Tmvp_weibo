@@ -1,15 +1,12 @@
 package com.ui.welcome;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 import com.C;
 import com.base.BaseActivity;
+import com.base.adapter.TRecyclerView;
 import com.model.TimelineRet;
 import com.ui.main.R;
-import com.ui.main.databinding.ActivityFeedbackBinding;
 import com.ui.main.databinding.ActivityWelcomeBinding;
 
 public class WelcomeActivity extends BaseActivity<WelcomePresenter, ActivityWelcomeBinding> implements View.OnClickListener, WelcomeContract.View {
@@ -40,9 +37,10 @@ public class WelcomeActivity extends BaseActivity<WelcomePresenter, ActivityWelc
     public int getLayoutId() {
         return R.layout.activity_welcome;
     }
-
+    private TRecyclerView mXRecyclerView;
     @Override
     public void initView() {
-
+        mXRecyclerView = new TRecyclerView(getBaseContext() ,true);
+        mXRecyclerView.setViewType(R.layout.list_item_card_main);
     }
 }
