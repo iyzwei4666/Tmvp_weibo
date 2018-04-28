@@ -12,13 +12,13 @@
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="getHomeweibo"
+            android:onClick="getHomeWeibo"
             android:text="首页微博" />
         <Button
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="getUserweibo"
+            android:onClick="getUserWeibo"
             android:text="用户微博" />
     </LinearLayout>
 </layout>

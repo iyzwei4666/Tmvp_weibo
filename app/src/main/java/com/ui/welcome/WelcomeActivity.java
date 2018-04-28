@@ -3,6 +3,8 @@ package com.ui.welcome;
 import android.view.View;
 
 import com.C;
+import com.DbFactory;
+import com.apt.ApiFactory;
 import com.base.BaseActivity;
 import com.base.adapter.TRecyclerView;
 import com.model.TimelineRet;
@@ -16,10 +18,10 @@ public class WelcomeActivity extends BaseActivity<WelcomePresenter, ActivityWelc
     public void onClick(View v) {
 
     }
-    public void getHomeweibo(View v) {
+    public void getHomeWeibo(View v) {
         mPresenter.statuses_home_timeline(C.ACCESS_TOKEN);
     }
-    public void getUserweibo(View v) {
+    public void getUserWeibo(View v) {
         mPresenter.statuses_user_timeline(C.ACCESS_TOKEN);
     }
 
@@ -42,5 +44,10 @@ public class WelcomeActivity extends BaseActivity<WelcomePresenter, ActivityWelc
     public void initView() {
         mXRecyclerView = new TRecyclerView(getBaseContext() ,true);
         mXRecyclerView.setViewType(R.layout.list_item_card_main);
+        mXRecyclerView.getPresenter()
+//                .setDbRepository(DbFactory::getAllImages)
+                .setNetRepository(ApiFactory::getAllImages)
+//                .setParam(C.TYPE, type)
+                .fetch();
     }
 }
